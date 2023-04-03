@@ -37,16 +37,17 @@ nav a {
 #hero {
     display: flex;
     background-size: cover;
+    color: var(--light-text-color);
+    background-color: var(--dark-background);
     padding: 5%;
     border: 5%;
     margin: 0%;
-    border-style: dotted;
 }
 
 .section h1 {
     font-size: 48px;
-    margin: auto;
-    border-style: dashed;
+    margin-top: auto;
+    margin-bottom: 0%;
 }
 
 .section p {
@@ -60,7 +61,6 @@ nav a {
 .hero-right {
     display: flex;
     margin: 20px;
-    border-style: dashed;
 }
 
 button {
@@ -96,3 +96,22 @@ div .card img {
     margin-bottom: 10px;
 }
 
+#quote {
+    display: flex;
+    background-color: var(--dark-background);
+    color: var(--light-text-color);
+    margin-bottom: 20px;
+}
+
+.section p {
+    display: flex;
+    font-size: var(--quote-text);
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
